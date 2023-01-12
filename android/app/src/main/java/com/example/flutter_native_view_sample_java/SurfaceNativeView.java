@@ -46,7 +46,6 @@ class SurfaceNativeView implements PlatformView, SurfaceHolder.Callback {
     @Override
     public void dispose() {
         System.out.println("SurfaceNativeView: disposing: "+id);
-//        surfaceView.getHolder().getSurface().release();
     }
 
     @Override
